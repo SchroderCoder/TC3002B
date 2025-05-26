@@ -14,22 +14,22 @@ driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
 
 urls_and_folders = [
     {
-        "url": "https://www.google.com/search?q=paul+mccartney&udm=2",
+        "url": "https://www.google.com/search?sca_esv=a0cb478d38178b5b&sxsrf=AE3TifMxTyDUhZl_QTSMouRh2lAM4FOZUA:1748120619297&q=paul+mccartney+face&udm=2&fbs=AIIjpHx4nJjfGojPVHhEACUHPiMQht6_BFq6vBIoFFRK7qchKBv8IM7dq8CEqHDU3BN7lbmYnvYQ6rIhpD6d6bj_VyqCDVICi0aYslRFVg6x8lIId9pHGh2yQ6AdokkDbdE8SxSwaP0197JzBQG9sSBJhByVo6IpBOwfTRZZt8edZB86SlTk7kxQvKCq5MeCv2tXBkNvjUEPTws5ZeDyErZbxVJ1rXpAYA&sa=X&ved=2ahUKEwjquKbkgL2NAxUtmO4BHXpMPMgQtKgLegQIExAB&biw=1536&bih=643&dpr=1.25",
         "folder": "./dataset/paul",
         "source": "google"
     },
     {
-        "url": "https://www.google.com/search?q=John+lennon&udm=2",
+        "url": "https://www.google.com/search?q=John+Lennon+Face&sca_esv=a0cb478d38178b5b&udm=2&biw=1536&bih=643&sxsrf=AE3TifPR8NUKHqe8cQuRNl8ThF2jksQrEg%3A1748120735041&ei=nzQyaKyrApnHkPIP-f-muQk&ved=0ahUKEwjs9r6bgb2NAxWZI0QIHfm_KZcQ4dUDCBE&uact=5&oq=John+Lennon+Face&gs_lp=EgNpbWciEEpvaG4gTGVubm9uIEZhY2UyBxAjGCcYyQIyBBAAGB4yBBAAGB4yBBAAGB4yBBAAGB4yBBAAGB4yBBAAGB4yBBAAGB4yBhAAGAoYHjIEEAAYHkipI1AAWJAicAd4AJABAJgBVaABkQuqAQIxObgBA8gBAPgBAZgCFqACvgrCAgoQABiABBhDGIoFwgIGEAAYAxgKwgILEAAYgAQYsQMYgwHCAg0QABiABBixAxhDGIoFwgIIEAAYgAQYsQPCAgUQABiABMICBhAAGAgYHpgDAJIHAjIyoAeKeLIHAjE3uAezCsIHBjIuNC4xNsgHPw&sclient=img",
         "folder": "./dataset/john",
         "source": "google"
     },
     {
-        "url": "https://www.google.com/search?q=george+harrison&udm=2",
+        "url": "https://www.google.com/search?q=george+harrison+face&sca_esv=a0cb478d38178b5b&udm=2&biw=1536&bih=643&sxsrf=AE3TifOx-2ERMzn5nfNpQ9TuZAuZPJBoaw%3A1748120771312&ei=wzQyaK70EtbRkPIP9r3pqQo&ved=0ahUKEwju4eSsgb2NAxXWKEQIHfZeOqUQ4dUDCBE&uact=5&oq=george+harrison+face&gs_lp=EgNpbWciFGdlb3JnZSBoYXJyaXNvbiBmYWNlMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgYQABgTGB4yCBAAGBMYCBgeMggQABgTGAgYHjIGEAAYExgeSMMKUFxY6AVwAXgAkAEAmAFUoAGBA6oBATW4AQPIAQD4AQGYAgagApUDwgINEAAYgAQYsQMYQxiKBcICBhAAGAcYHsICCxAAGIAEGLEDGIMBwgIKEAAYgAQYQxiKBcICBRAAGIAEwgIEEAAYHpgDAIgGAZIHATagB-0asgcBNbgHkQPCBwUwLjEuNcgHEg&sclient=img",
         "folder": "./dataset/george",
         "source": "google"
     },
     {
-        "url": "https://www.google.com/search?q=ringo+starr&udm=2",
+        "url": "https://www.google.com/search?q=Ringo+Starr+Face&sca_esv=a0cb478d38178b5b&udm=2&biw=1536&bih=643&sxsrf=AE3TifPuv_xOKtQfHAtCOBtrJa4BITDE2w%3A1748120776366&ei=yDQyaOqRFoPDkPIP6tjksQ0&ved=0ahUKEwjqlZmvgb2NAxWDIUQIHWosOdYQ4dUDCBE&uact=5&oq=Ringo+Starr+Face&gs_lp=EgNpbWciEFJpbmdvIFN0YXJyIEZhY2UyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBxAAGIAEGBMyBhAAGBMYHjIIEAAYExgIGB5IhBtQAFiIGnADeACQAQCYAV2gAdALqgECMTm4AQPIAQD4AQGYAhOgAvoKwgIHECMYJxjJAsICChAAGIAEGEMYigXCAgsQABiABBixAxiDAcICDhAAGIAEGLEDGIMBGIoFwgIIEAAYgAQYsQPCAg0QABiABBixAxhDGIoFwgIFEAAYgATCAgYQABgIGB7CAgQQABgewgIIEAAYExgFGB6YAwCSBwIxOaAHo3SyBwIxN7gH9grCBwYxLjMuMTXIBzo&sclient=img",
         "folder": "./dataset/ringo",
         "source": "google"
     },
@@ -116,7 +116,7 @@ def download_image_from_base64(base64_string, folder, file_name):
 
 def get_initial_index(folder):
     existing_files = os.listdir(folder)
-    image_files = [f for f in existing_files if f.endswith(('.jpeg', '.jpg', '.png', '.gif'))]
+    image_files = [f for f in existing_files if f.endswith(('.jpeg', '.jpg', '.png'))]
     indices = [int(f.split('.')[0]) for f in image_files if f.split('.')[0].isdigit()]
     return max(indices, default=-1) + 1
 
